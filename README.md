@@ -80,13 +80,23 @@ To use the Anaya CLI tool, follow these steps:
 
 #### *Example Session*
 
-   ```sh
+   ```
    $ anaya
-   Client is ready!
-   Enter the contact name: Anaya
-   Enter the phone number (e.g., 1234567890): 1234567890
-   Enter message here: Hi Anaya!
-   You: Hi Anaya!
+
+     _      __    __                   __
+    | | /| / /__ / /______  __ _  ___ / /
+    | |/ |/ / -_) / __/ _ \/  ' \/ -_)_/ 
+    |__/|__/\__/_/\__/\___/_/_/_/\__(_)  
+ 
+    You: Hi Anaya!
+    Anaya: Hey!
+    You: What's up?
+    Anaya: Just doing homework. You?
+
+
+
+
+    > Procrastinating...
    ```
 
 
