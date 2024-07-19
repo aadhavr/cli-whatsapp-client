@@ -53,7 +53,7 @@ function promptChatDetails() {
             return promptChatDetails();
         }
         contactName = name; // Store the contact name
-        rl.question(clc.yellowBright('Enter the phone number (e.g., 917303030366): '), number => {
+        rl.question(clc.yellowBright('Enter the phone number (e.g., 1234567890): '), number => {
             if (!/^\d{7,15}$/.test(number.trim())) {
                 console.log(clc.redBright('Invalid phone number format. Please try again.'));
                 return promptChatDetails();
