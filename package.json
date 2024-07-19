@@ -1,6 +1,6 @@
 {
-  "name": "anaya",
-  "version": "1.0.1",
+  "name": "msg-anaya",
+  "version": "1.0.0",
   "main": "main.js",
   "scripts": {
     "start": "node --no-warnings main.js",

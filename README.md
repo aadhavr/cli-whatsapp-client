@@ -57,7 +57,7 @@ If the package is published on npm, you can install it directly from npm:
 #### Install globally
 
    ```sh
-   npm install -g anaya
+   npm install -g msg-anaya
    ```
 
 ## Usage
@@ -122,7 +122,7 @@ Please make sure to update tests as appropriate.
 
 ## Contact
 
-If you want to contact me, you can reach me at [your-email@example.com](mailto:aadhav.rajesh@gmail.com).
+If you want to contact me, you can reach me at [aadhav.rajesh@gmail.com](mailto:aadhav.rajesh@gmail.com).
 
 ## Acknowledgments
 
