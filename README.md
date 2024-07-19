@@ -1,5 +1,13 @@
 # Anaya (CLI Whatsapp Client)
 
+<div align="center">
+  <img src="demo.gif" alt="Demo of Anaya">
+  <p align="center"><br>
+<i>Demo of Anaya</i></p>
+</div>
+<br>
+
+
 Anaya is a command-line application to interact with WhatsApp via Terminal. This tool allows you to discreetly send and receive WhatsApp messages directly from your terminal.
 
 I built this because I wanted to respond to my girlfriend's texts during work or class, discreetly. If I took out my phone or opened up WhatsApp on my laptop, I could get in trouble. I noticed that non-technical people's eyes just glaze over when you use a terminal, so this is a way for me to text her during 9-5 hours without anyone peering over my shoulder. Maybe it's helpful for you.

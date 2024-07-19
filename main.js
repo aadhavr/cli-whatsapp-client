@@ -33,7 +33,7 @@ let firstMessage = true; // Flag to indicate if it's the first message
 
 // ASCII art for title
 const title = `
-${clc.greenBright.bold(`  _      __    __                   __      
+${clc.greenBright.bold(` _      __    __                   __      
 | | /| / /__ / /______  __ _  ___ / /      
 | |/ |/ / -_) / __/ _ \\/  ' \\/ -_)_/       
 |__/|__/\\__/_/\\__/\\___/_/_/_/\\__(_)  `)}
@@ -102,9 +102,7 @@ function drawInterface() {
     readline.clearScreenDown(process.stdout); // Clear the screen
 
     console.log(title);
-    console.log('┌' + '─'.repeat(process.stdout.columns - 2) + '┐');
-    messageHistory.forEach(message => console.log(`│${message.padEnd(process.stdout.columns - 2)}│`));
-    console.log('└' + '─'.repeat(process.stdout.columns - 2) + '┘');
+    messageHistory.forEach(message => console.log(message));
     readline.cursorTo(process.stdout, 0, process.stdout.rows - 1); // Move cursor to the bottom
 }
 
